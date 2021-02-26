@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/26684909/string-arrays-in-ada
+

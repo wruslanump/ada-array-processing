@@ -1,0 +1,51 @@
+   -- Build gcode_array(idx) with array elements of same length
+   PAGLA.exec_build_array_lineStrings (inp_fname_Str);
+   
+   -- Build gcode_array(idx) with array elements of different lengths
+   PAGLA.exec_build_array_unbounded_lineStrings (inp_fname_UBStr);
+   
+gprbuild -d -P/home/wruslan/github-ump/ada-array-processing/ada_array_processing.gpr /home/wruslan/github-ump/ada-array-processing/src/main_ada_array_processing.adb
+Compile
+   [Ada]          main_ada_array_processing.adb
+Bind
+   [gprbind]      main_ada_array_processing.bexch
+   [Ada]          main_ada_array_processing.ali
+Link
+   [link]         main_ada_array_processing.adb
+[2021-02-27 00:56:22] process terminated successfully, elapsed time: 00.80s
+
+===========================================================
+/home/wruslan/github-ump/ada-array-processing/exec/main_ada_array_processing.adx
+2021-02-26 16:56:22.98594827430 Bismillah 3 times WRY
+2021-02-26 16:56:22.98594854896 Executing: main_ada_array_processing
+
+===========================================================
+2021-02-26 16:56:22.98594883590 Started PAGLA.exec_build_array_lineStrings
+
+gcode_array( 5): G03 X[50.893119*#10+#6] Y[111.417347*#10+#7] Z[1.000000*#11+#8] I[11.057120*#10] J[-5.378543*#10]	 length:  97
+gcode_array( 6): G03 X[50.402911*#10+#6] Y[105.644087*#10+#7] Z[1.000000*#11+#8] I[33.751222*#10] J[-5.773260*#10]	 length:  97
+gcode_array( 7): G03 X[50.736597*#10+#6] Y[100.770652*#10+#7] Z[1.000000*#11+#8] I[35.754722*#10] J[-0.000000*#10]	 length:  97
+gcode_array( 8): G02 X[64.616995*#10+#6] Y[79.805667*#10+#7] Z[1.000000*#11+#8] I[-25.763991*#10] J[-9.012106*#10]	 length:  97
+gcode_array( 9): G02 X[65.199422*#10+#6] Y[70.825931*#10+#7] Z[1.000000*#11+#8] I[-68.932626*#10] J[-8.979736*#10]	 length:  97
+gcode_array( 10): G03 X[61.144885*#10+#6] Y[75.495725*#10+#7] Z[1.000000*#11+#8] I[-39.551437*#10] J[-0.000000*#10]	 length:  97
+
+2021-02-26 16:56:23.98595299312 Ended PAGLA.exec_build_array_lineStrings
+===========================================================
+===========================================================
+2021-02-26 16:56:23.98595359217 Started PAGLA.exec_build_array_unbounded_lineStrings
+
+gcode_array( 3): G21 (All units in mm)	 length:  21
+gcode_array( 4): #8  = 0 (Z axis offset)	 length:  23
+gcode_array( 5): #21 = 400.000000 (Feed definition)	 length:  34
+gcode_array( 6): #20 = 100.000000 (Feed definition)	 length:  34
+gcode_array( 7): G00 Z[5.000000*#11+#8]	 length:  22
+
+2021-02-26 16:56:24.98595823679 Ended PAGLA.exec_build_array_unbounded_lineStrings
+===========================================================
+
+2021-02-26 16:56:24.98595879778 Ended main: Alhamdulillah 3 times WRY
+[2021-02-27 00:56:24] process terminated successfully, elapsed time: 02.12s
+==========================================================
+
+
+

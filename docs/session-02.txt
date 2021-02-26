@@ -1,0 +1,43 @@
+/home/wruslan/github-ump/ada-string-processing/exec/main_ada_string_processing.adx
+2021-02-26 13:07:27.77034998001 Bismillah 3 times WRY
+2021-02-26 13:07:27.77035021934 Executing: main_ada_string_processing
+
+2021-02-26 13:07:27.77035038442 Started PSS.exec_line_string_split
+
+Splitting data string 'G01 X[180.657580*#10+#6] Y[124.749177*#10+#7] Z[1.000000*#11+#8] F[#21]' at whitespace.
+Got 5 substrings:
+
+ 1 -> G01 (length 3)
+ 2 -> X[180.657580*#10+#6] (length 20)
+ 3 -> Y[124.749177*#10+#7] (length 20)
+ 4 -> Z[1.000000*#11+#8] (length 18)
+ 5 -> F[#21] (length 6)
+
+2021-02-26 13:07:27.77035094229 Ended PSS.exec_line_string_split
+
+2021-02-26 13:07:27.77035107628 Ended main: Alhamdulillah 3 times WRY
+[2021-02-26 21:07:27] process terminated successfully, elapsed time: 00.20s
+
+===========================================================
+/home/wruslan/github-ump/ada-string-processing/exec/main_ada_string_processing.adx
+2021-02-26 13:10:00.77026526249 Bismillah 3 times WRY
+2021-02-26 13:10:00.77026556500 Executing: main_ada_string_processing
+
+2021-02-26 13:10:00.77026580362 Started PASS.exec_line_string_split
+
+Splitting data string 'G01 X[180.657580*#10+#6] Y[124.749177*#10+#7] Z[1.000000*#11+#8] F[#21]' at whitespace.
+Got 5 substrings:
+
+ 1 -> G01 (length 3)
+ 2 -> X[180.657580*#10+#6] (length 20)
+ 3 -> Y[124.749177*#10+#7] (length 20)
+ 4 -> Z[1.000000*#11+#8] (length 18)
+ 5 -> F[#21] (length 6)
+
+2021-02-26 13:10:00.77026659428 Ended PASS.exec_line_string_split
+
+2021-02-26 13:10:00.77026673517 Ended main: Alhamdulillah 3 times WRY
+[2021-02-26 21:10:00] process terminated successfully, elapsed time: 00.20s
+
+===========================================================
+

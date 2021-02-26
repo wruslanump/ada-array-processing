@@ -1,0 +1,18 @@
+
+-- File   : pkg_string_split.adb
+-- REF    : http://wiki.ada-dk.org/index.php/GNAT.String_Split_Basic_Usage_Example
+
+
+Splitting data string 'G01 X[180.657580*#10+#6] Y[124.749177*#10+#7] Z[1.000000*#11+#8] F[#21]' at whitespace.
+Got 5 substrings:
+
+ 1 -> G01 (length 3)
+ 2 -> X[180.657580*#10+#6] (length 20)
+ 3 -> Y[124.749177*#10+#7] (length 20)
+ 4 -> Z[1.000000*#11+#8] (length 18)
+ 5 -> F[#21] (length 6)
+
+2021-02-26 11:13:26.34033140116 Ended PSS.exec_line_string_split
+2021-02-26 11:13:26.34033153382 main Alhamdulillah 3 times WRY
+[2021-02-26 19:13:26] process terminated successfully, elapsed time: 00.20s
+
